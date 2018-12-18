@@ -21,7 +21,7 @@ To run ,
 
 ## Running the tests
 To test compile the Testing class
-code> javac Testing.java</code> <br>
+<code> javac Testing.java</code> <br>
 To run tests , 
 <code>java Testing</code>
 ### Parameters
