@@ -32,8 +32,8 @@ To add custom test, please use these methods in the main function in the testing
 
 ### Arguments
 * -f file.txt --> takes in a file path after the parameter
-* -x --> sets the hex flag so that digits are evaluated in hex
-
+* -x --> sets the hex flag so that digits are evaluated in hex 
+<br>
 Program will indicate if arguments are not set correctly / if there are any alien arguments
 
 ## Built With
