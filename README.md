@@ -22,11 +22,19 @@ To run ,
 ## Running the tests
 To test compile the Testing class
 <code> javac Testing.java</code> <br>
-To run tests , 
+To run tests after compilation is successful, <br>
 <code>java Testing</code>
-### Parameters
-* -f file.txt --> takes in a file name after the parameter
+the testing class has different methods to enable testing. Each method has comments that explain functionality
+*  <code>testProgSystemIn(String line, String input,String expOut,String name)</code>
+*  <code>testProg(String line, String expRes, String testName)</code>
+*  <code>testErr(String line, String expRes,String testName)</code>
+To add custom test, please use these methods in the main function in the testing class
+
+### Arguments
+* -f file.txt --> takes in a file path after the parameter
 * -x --> sets the hex flag so that digits are evaluated in hex
+
+Program will indicate if arguments are not set correctly / if there are any alien arguments
 
 ## Built With
 
